@@ -1,0 +1,2 @@
+include versioneer.py
+include rxrisk/_version.py
