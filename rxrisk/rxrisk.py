@@ -34,7 +34,6 @@ def _atc_to_cat(values):
     atc_to_cat = {}
     
     for _, row in atc_to_rxrisk.iterrows():
-        print(row)
         subgroups = row['Subgroups'].split(',')
         for subgroup in subgroups: 
             atc_to_cat[subgroup] = row['Category']
